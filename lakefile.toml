@@ -1,0 +1,15 @@
+name = "tactics"
+version = "0.1.0"
+defaultTargets = ["tactics"]
+
+[[lean_lib]]
+name = "Tactics"
+
+[[lean_exe]]
+name = "tactics"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.18.0"
